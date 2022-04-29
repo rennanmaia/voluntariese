@@ -44,3 +44,32 @@
     * Validação de formulário
   * Sobre
   * Contato
+
+
+## Projeto
+
+1. Mobile first
+   * Planejar primeiro para disposivitos móveis, depois para telas maiores
+
+2. Breakpoints (pontos de quebra)
+   * < 480
+   * < 768
+   * \> 768
+
+3. Unidades de medida
+   * Unidades absolutas
+     * cm (centímetro)
+     * mm (milímetro)
+     * in (polegada 1in = 96px = 2.54cm)
+     * px (1px = 1/96 de 1in)
+     * pt (1pt = 1/72 de 1in)
+     * pc (1pc = 12pt)
+   * Unidades relativas
+     * em (relativo ao tamanho da fonte do elemento = 2em é 2 vezes o tamanho da fonte atual do elemento)
+     * rem (relativo ao tamanho da fonte do elemento root da pagina)
+     * vw (realtivo a 1% da largura da viewport)
+     * vh (relativo a 1% da altura da viewport)
+     * % (relativo ao elemento pai)
+   * Fonte: https://www.w3schools.com/css/css_units.asp
+
+4. Definição dos elementos
