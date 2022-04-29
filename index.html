@@ -5,42 +5,133 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-
+    <link rel="stylesheet" href="./css/small.css" />
+    <link rel="stylesheet" href="./css/medium.css" />
+    <link rel="stylesheet" href="./css/large.css" />
     <title>Voluntarie-se</title>
   </head>
   <body>
-    <header>
-      <div id="topo">
-        <div id="logo"></div>
-        <button id="doe"></button>
+    <header class="col-12 col-m-12 col-s-12">
+      <div id="topo" class="col-12 col-m-12 col-s-12">
+        <div id="logo" class="col-9 col-m-9 col-s-12">
+          <img />
+        </div>
+        <div id="botao-doar" class="col-3 col-m-3 col-s-12">
+          <button id="doe">Doe agora</button>
+        </div>
       </div>
 
-      <div class="menu">
+      <div id="menu" class="col-12 col-m-12 menu">
         <ul>
-          <li class="item-menu">Home</li>
-          <li class="item-menu">Categorias</li>
-          <li class="item-menu">Notícias</li>
-          <li class="item-menu">Candidate-se</li>
-          <li class="item-menu">Sobre</li>
-          <li class="item-menu">Contato</li>
+          <li class="col-2 col-m-2 col-s-12 item-menu">Home</li>
+          <li class="col-2 col-m-2 col-s-12 item-menu">Categorias</li>
+          <li class="col-2 col-m-2 col-s-12 item-menu">Notícias</li>
+          <li class="col-2 col-m-2 col-s-12 item-menu">Candidate-se</li>
+          <li class="col-2 col-m-2 col-s-12 item-menu">Sobre</li>
+          <li class="col-2 col-m-2 col-s-12 item-menu">Contato</li>
         </ul>
       </div>
     </header>
 
-    <main>
-      <div class="capa"></div>
-      <div class="noticias"></div>
-      <div class="categorias"></div>
-      <div class="parceiros"></div>
-      <div class="depoimentos"></div>
+    <main class="col-12 col-m-12 col-s-12">
+      <div id="capa" class="col-7 col-m-8 col-s-12">
+        <img src="imgs/capa.jpg" />
+      </div>
+      <div id="noticias" class="col-3 col-m-4 col-s-12">
+        <h3>Notícias</h3>
+        <div class="noticia">
+          <div class="titulo-noticia">
+            <span
+              >1. Primeiros Passos no Brasil: Saiba como ajudar refugiados na
+              regularização de seus documentos</span
+            >
+          </div>
+          <div class="resumo-noticia">
+            <span
+              >A Compassiva preparou 7 dicas para ajudar refugiados, em seus
+              primeiros passos</span
+            >
+          </div>
+        </div>
+
+        <div class="noticia">
+          <div class="titulo-noticia">
+            <span
+              >2. Primeiros Passos no Brasil: Saiba como ajudar refugiados na
+              regularização de seus documentos</span
+            >
+          </div>
+          <div class="resumo-noticia">
+            <span
+              >A Compassiva preparou 7 dicas para ajudar refugiados, em seus
+              primeiros passos</span
+            >
+          </div>
+        </div>
+
+        <div class="noticia">
+          <div class="titulo-noticia">
+            <span
+              >3. Primeiros Passos no Brasil: Saiba como ajudar refugiados na
+              regularização de seus documentos</span
+            >
+          </div>
+          <div class="resumo-noticia">
+            <span
+              >A Compassiva preparou 7 dicas para ajudar refugiados, em seus
+              primeiros passos</span
+            >
+          </div>
+        </div>
+      </div>
+      <div id="parceiros" class="col-2 col-m-12 col-s-12">
+        <div class="col-12 col-m-3 col-s-12 parceiro">
+          <img />
+        </div>
+        <div class="col-12 col-m-3 col-s-12 parceiro">
+          <img />
+        </div>
+        <div class="col-12 col-m-3 col-s-12 parceiro">
+          <img />
+        </div>
+        <div class="col-12 col-m-3 col-s-12 parceiro">
+          <img />
+        </div>
+      </div>
+
+      <div id="categorias">
+        <div class="col-3 col-m-3 col-s-12 categoria">
+          <img />
+        </div>
+        <div class="col-3 col-m-3 col-s-12 categoria">
+          <img />
+        </div>
+        <div class="col-3 col-m-3 col-s-12 categoria">
+          <img />
+        </div>
+        <div class="col-3 col-m-3 col-s-12 categoria">
+          <img />
+        </div>
+      </div>
+      <div id="depoimentos">
+        <div class="col-4 col-m-4 col-s-12 depoimento">
+          <img />
+        </div>
+        <div class="col-4 col-m-4 col-s-12 depoimento">
+          <img />
+        </div>
+        <div class="col-4 col-m-4 col-s-12 depoimento">
+          <img />
+        </div>
+      </div>
     </main>
 
-    <footer>
+    <footer id="footer" class="col-12 col-m-12 col-s-12">
       <ul>
-        <li id="sobre"></li>
-        <li id="newsletter"></li>
-        <li class="candidate"></li>
-        <li class="contato"></li>
+        <li id="sobre" class="col-3 col-m-3 col-s-12"></li>
+        <li id="newsletter" class="col-3 col-m-3 col-s-12"></li>
+        <li id="candidate" class="col-3 col-m-3 col-s-12"></li>
+        <li id="contato" class="col-3 col-m-3 col-s-12"></li>
       </ul>
     </footer>
   </body>
