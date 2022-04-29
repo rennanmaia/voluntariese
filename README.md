@@ -50,6 +50,9 @@
 
 1. Mobile first
    * Planejar primeiro para disposivitos móveis, depois para telas maiores
+   * P.S.) Ferramenta de prototipação usada: Figma
+     * figma.com
+     * Projeto: https://www.figma.com/file/JP3Qb8J2eFiyrqMXVe76vy/Voluntarie-se?node-id=0%3A1
 
 2. Breakpoints (pontos de quebra)
    * < 480
